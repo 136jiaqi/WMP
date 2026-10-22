@@ -1,0 +1,30 @@
+name: Daily DingTalk report
+on:
+  schedule:
+    - cron: '0 2 * * *' # 10:00 Asia/Hong_Kong, UTC+8
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Preview only, do not send'
+        type: boolean
+        default: true
+permissions:
+  contents: read
+concurrency:
+  group: dingtalk-daily
+  cancel-in-progress: false
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Send or preview report
+        env:
+          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+        run: python scripts/dingtalk.py
