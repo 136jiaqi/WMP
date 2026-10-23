@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-23T19:22:48.906749+08:00",
-  "latestTime": "2026-10-23 19:12:47",
+  "generatedAt": "2026-10-24T00:25:07.211061+08:00",
+  "latestTime": "2026-10-24 00:15:05",
   "snapshots": [
     {
       "time": "2026-10-23 18:44:32",
@@ -618,6 +618,161 @@
           "rank": 25,
           "name": "Invokyr",
           "points": 14967,
+          "platform": "Steam"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-24 00:15:05",
+      "rows": [
+        {
+          "rank": 1,
+          "name": "Find The Needle",
+          "points": 78303,
+          "platform": "Steam"
+        },
+        {
+          "rank": 2,
+          "name": "FINAL FANTASY RESONANCE",
+          "points": 49294,
+          "platform": "Xbox"
+        },
+        {
+          "rank": 3,
+          "name": "Onimusha: Warlords / 鬼武者",
+          "points": 40729,
+          "platform": "Steam"
+        },
+        {
+          "rank": 4,
+          "name": "Guildrun",
+          "points": 29142,
+          "platform": "Steam"
+        },
+        {
+          "rank": 5,
+          "name": "Obenseuer",
+          "points": 23122,
+          "platform": "Steam"
+        },
+        {
+          "rank": 6,
+          "name": "ZEPHON",
+          "points": 22406,
+          "platform": "Steam"
+        },
+        {
+          "rank": 7,
+          "name": "Rancher: A new life",
+          "points": 21065,
+          "platform": "Steam"
+        },
+        {
+          "rank": 8,
+          "name": "FATE: Reawakened",
+          "points": 20353,
+          "platform": "Steam"
+        },
+        {
+          "rank": 9,
+          "name": "Devil Spire Falls",
+          "points": 19445,
+          "platform": "Steam"
+        },
+        {
+          "rank": 10,
+          "name": "No Such Place",
+          "points": 19229,
+          "platform": "Steam"
+        },
+        {
+          "rank": 11,
+          "name": "Atelier Ryza 2: Lost Legends & the Secret Fairy DX",
+          "points": 18794,
+          "platform": "Steam"
+        },
+        {
+          "rank": 12,
+          "name": "Fear & Hunger 2: Termina",
+          "points": 18040,
+          "platform": "Steam"
+        },
+        {
+          "rank": 13,
+          "name": "Don't Sleep With The Fishes",
+          "points": 17410,
+          "platform": "Steam"
+        },
+        {
+          "rank": 14,
+          "name": "侠影录",
+          "points": 16747,
+          "platform": "Steam"
+        },
+        {
+          "rank": 15,
+          "name": "EA SPORTS Madden NFL 27",
+          "points": 16560,
+          "platform": "Steam"
+        },
+        {
+          "rank": 16,
+          "name": "Discounty",
+          "points": 16466,
+          "platform": "Steam"
+        },
+        {
+          "rank": 17,
+          "name": "Sandustry (Game Preview)",
+          "points": 16433,
+          "platform": "Game Pass"
+        },
+        {
+          "rank": 18,
+          "name": "Beholder: Conductor",
+          "points": 16208,
+          "platform": "Steam"
+        },
+        {
+          "rank": 19,
+          "name": "Farm Factory Simulator",
+          "points": 15829,
+          "platform": "Steam"
+        },
+        {
+          "rank": 20,
+          "name": "Youtubers Life 3 - Stream Together!",
+          "points": 15804,
+          "platform": "Steam"
+        },
+        {
+          "rank": 21,
+          "name": "Hellforged Playtest",
+          "points": 15753,
+          "platform": "Steam"
+        },
+        {
+          "rank": 22,
+          "name": "Football Life Simulator",
+          "points": 15318,
+          "platform": "Steam"
+        },
+        {
+          "rank": 23,
+          "name": "Project Werewulf",
+          "points": 15206,
+          "platform": "Steam"
+        },
+        {
+          "rank": 24,
+          "name": "LEGO Batman3: Beyond Gotham",
+          "points": 15124,
+          "platform": "Steam"
+        },
+        {
+          "rank": 25,
+          "name": "Invokyr",
+          "points": 15002,
           "platform": "Steam"
         }
       ]
