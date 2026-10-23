@@ -256,6 +256,23 @@ const string extractScript = @"
     if (titleLinks.length > 0) {
         var linkedRows = [], seenTitles = {};
         var badgeRe = /([\d,]+)\s*(?:个投票|点数|次助推|助推)/;
+        function iconPlatforms(card) {
+            var found = [];
+            for (var svg of card.querySelectorAll('svg')) {
+                var paths = Array.from(svg.querySelectorAll('path')).map(function(p){
+                    return (p.getAttribute('d') || '').replace(/\s+/g,'');
+                });
+                // These are the actual Steam/Xbox glyph paths used by Wand 12.66.
+                // Check multiple distinctive parts; unknown glyphs stay unknown.
+                if (paths.some(function(d){return d.indexOf('M15,2.5C15,1.12513.875,012.5,0') === 0;}) &&
+                    paths.some(function(d){return d.indexOf('M10.781,1.875') === 0;})) found.push('Steam');
+                if (paths.some(function(d){return d.indexOf('M20C0.89543100') === 0 &&
+                    d.indexOf('M4.2375512.5308') >= 0 && d.indexOf('M5.293782.36148') >= 0;})) found.push('Xbox');
+                var named = ((svg.getAttribute('aria-label') || '') + ' ' + (svg.textContent || '')).trim();
+                if (/^(Steam|Xbox|PlayStation|Switch|Epic|GOG)$/i.test(named)) found.push(named);
+            }
+            return Array.from(new Set(found));
+        }
         for (var link of titleLinks) {
             var href = link.getAttribute('href'), titleId = href.match(/\/titles\/(\d+)/)[1];
             if (seenTitles[titleId]) continue;
@@ -266,6 +283,13 @@ const string extractScript = @"
             if (!name && lines.length > 1 && !badgeRe.test(lines[1])) name = lines[1];
             if (!rank || !name || !badge || /邀请好友|获得奖励/.test(name)) continue;
             var platforms = lines.filter(function(s){return /^(Steam|Game Pass|Xbox|PlayStation|PS[45]|Switch|Epic|GOG)$/i.test(s);});
+            if (!platforms.length) {
+                // Featured cards put platform icons beside the name outside the link.
+                // Never ascend into a container holding multiple game links.
+                var card = link.parentElement;
+                if (!card || card.querySelectorAll('a[href*=parentRoute]').length !== 1) card = link;
+                platforms = iconPlatforms(card);
+            }
             seenTitles[titleId] = true;
             linkedRows.push({rank:rank, name:name, points:badge[1].replace(/,/g,''), platform:platforms.join(' · ')});
         }
