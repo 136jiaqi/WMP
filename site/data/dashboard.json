@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-23T18:44:32.550372+08:00",
-  "latestTime": "2026-10-23 18:44:32",
+  "generatedAt": "2026-10-23T18:55:59.679927+08:00",
+  "latestTime": "2026-10-23 18:55:59",
   "snapshots": [
     {
       "time": "2026-10-23 18:44:32",
@@ -22,6 +22,161 @@
           "name": "Onimusha: Warlords / 鬼武者",
           "points": 40638,
           "platform": ""
+        },
+        {
+          "rank": 4,
+          "name": "Guildrun",
+          "points": 29121,
+          "platform": "Steam"
+        },
+        {
+          "rank": 5,
+          "name": "Obenseuer",
+          "points": 23107,
+          "platform": "Steam"
+        },
+        {
+          "rank": 6,
+          "name": "ZEPHON",
+          "points": 22362,
+          "platform": "Steam"
+        },
+        {
+          "rank": 7,
+          "name": "Rancher: A new life",
+          "points": 21045,
+          "platform": "Steam"
+        },
+        {
+          "rank": 8,
+          "name": "FATE: Reawakened",
+          "points": 20313,
+          "platform": "Steam"
+        },
+        {
+          "rank": 9,
+          "name": "Devil Spire Falls",
+          "points": 19445,
+          "platform": "Steam"
+        },
+        {
+          "rank": 10,
+          "name": "No Such Place",
+          "points": 19203,
+          "platform": "Steam"
+        },
+        {
+          "rank": 11,
+          "name": "Atelier Ryza 2: Lost Legends & the Secret Fairy DX",
+          "points": 18794,
+          "platform": "Steam"
+        },
+        {
+          "rank": 12,
+          "name": "Fear & Hunger 2: Termina",
+          "points": 18035,
+          "platform": "Steam"
+        },
+        {
+          "rank": 13,
+          "name": "Don't Sleep With The Fishes",
+          "points": 17344,
+          "platform": "Steam"
+        },
+        {
+          "rank": 14,
+          "name": "侠影录",
+          "points": 16737,
+          "platform": "Steam"
+        },
+        {
+          "rank": 15,
+          "name": "EA SPORTS Madden NFL 27",
+          "points": 16560,
+          "platform": "Steam"
+        },
+        {
+          "rank": 16,
+          "name": "Discounty",
+          "points": 16370,
+          "platform": "Steam"
+        },
+        {
+          "rank": 17,
+          "name": "Beholder: Conductor",
+          "points": 16208,
+          "platform": "Steam"
+        },
+        {
+          "rank": 18,
+          "name": "Sandustry (Game Preview)",
+          "points": 16083,
+          "platform": "Game Pass"
+        },
+        {
+          "rank": 19,
+          "name": "Farm Factory Simulator",
+          "points": 15829,
+          "platform": "Steam"
+        },
+        {
+          "rank": 20,
+          "name": "Youtubers Life 3 - Stream Together!",
+          "points": 15754,
+          "platform": "Steam"
+        },
+        {
+          "rank": 21,
+          "name": "Hellforged Playtest",
+          "points": 15753,
+          "platform": "Steam"
+        },
+        {
+          "rank": 22,
+          "name": "Project Werewulf",
+          "points": 15196,
+          "platform": "Steam"
+        },
+        {
+          "rank": 23,
+          "name": "Football Life Simulator",
+          "points": 15113,
+          "platform": "Steam"
+        },
+        {
+          "rank": 24,
+          "name": "LEGO Batman3: Beyond Gotham",
+          "points": 15110,
+          "platform": "Steam"
+        },
+        {
+          "rank": 25,
+          "name": "Invokyr",
+          "points": 14967,
+          "platform": "Steam"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-23 18:55:59",
+      "rows": [
+        {
+          "rank": 1,
+          "name": "Find The Needle",
+          "points": 77828,
+          "platform": "Steam"
+        },
+        {
+          "rank": 2,
+          "name": "FINAL FANTASY RESONANCE",
+          "points": 47566,
+          "platform": "Xbox"
+        },
+        {
+          "rank": 3,
+          "name": "Onimusha: Warlords / 鬼武者",
+          "points": 40638,
+          "platform": "Steam"
         },
         {
           "rank": 4,
