@@ -177,7 +177,7 @@ const string pulseReadyJs = @"
 (function(){
     var pulseContainer = document.querySelector('[class*=pulse-list], [class*=PulseList], [class*=pulseList], [class*=boost-list], [class*=BoostList]');
     var loading = document.querySelector('[class*=loading], [class*=spinner], [class*=skeleton]');
-    var re = /[\d,]+\s*(点数|次助推|助推)/;
+    var re = /[\d,]+\s*(点数|次助推|助推|个投票)/;
     var count = 0;
     if (pulseContainer) {
         var pointsNodes = pulseContainer.querySelectorAll('*');
@@ -220,7 +220,7 @@ while (pulseWaited < 90000)
 
 if (!pulseReady)
 {
-    Console.WriteLine("ERROR: Pulse list did not render within 90s.");
+    Console.WriteLine($"ERROR: Pulse list did not render within 90s. Last state: {pulseJson}");
     return 3;
 }
 
@@ -246,6 +246,33 @@ const string extractScript = @"
 (function(){
     var results = [];
 
+    // Modern Wand uses title links, aria-label for featured titles and 个投票.
+    // Scope to those links so reward tasks elsewhere cannot be counted as games.
+    var titleLinks = Array.from(document.querySelectorAll('a[href]')).filter(function(a){
+        var href = a.getAttribute('href') || '';
+        return /\/app\/titles\/\d+/.test(href) && /(?:[?&])parentRoute=queue(?:&|$)/.test(href)
+            && a.getClientRects().length > 0;
+    });
+    if (titleLinks.length > 0) {
+        var linkedRows = [], seenTitles = {};
+        var badgeRe = /([\d,]+)\s*(?:个投票|点数|次助推|助推)/;
+        for (var link of titleLinks) {
+            var href = link.getAttribute('href'), titleId = href.match(/\/titles\/(\d+)/)[1];
+            if (seenTitles[titleId]) continue;
+            var lines = (link.innerText || '').split(/\r?\n/).map(function(s){return s.trim();}).filter(Boolean);
+            var badge = lines.map(function(s){return s.match(badgeRe);}).find(Boolean);
+            var rank = lines.length && /^\d+$/.test(lines[0]) ? lines[0] : '';
+            var name = (link.getAttribute('aria-label') || '').trim();
+            if (!name && lines.length > 1 && !badgeRe.test(lines[1])) name = lines[1];
+            if (!rank || !name || !badge || /邀请好友|获得奖励/.test(name)) continue;
+            var platforms = lines.filter(function(s){return /^(Steam|Game Pass|Xbox|PlayStation|PS[45]|Switch|Epic|GOG)$/i.test(s);});
+            seenTitles[titleId] = true;
+            linkedRows.push({rank:rank, name:name, points:badge[1].replace(/,/g,''), platform:platforms.join(' · ')});
+        }
+        linkedRows.sort(function(a,b){return Number(a.rank)-Number(b.rank);});
+        return JSON.stringify({method:'title-links', count:linkedRows.length, data:linkedRows});
+    }
+
     // Collect all game image alt texts
     var allImgs = document.querySelectorAll('img');
     var imgAltNames = [];
@@ -267,7 +294,7 @@ const string extractScript = @"
             var pointsCount = 0;
             var children = cand.querySelectorAll('*');
             for(var p = 0; p < children.length; p++){
-                if(children[p].textContent && children[p].textContent.match(/[\d,]+\s*(点数|次助推|助推)/)) pointsCount++;
+                if(children[p].textContent && children[p].textContent.match(/[\d,]+\s*(点数|次助推|助推|个投票)/)) pointsCount++;
             }
             if(pointsCount > bestScore && pointsCount >= 3 && pointsCount <= 1000){
                 bestScore = pointsCount;
@@ -352,7 +379,7 @@ const string extractScript = @"
         var leafCount = 0;
         for(var d=0; d<allDesc.length; d++){
             var dt=(allDesc[d].textContent||'').trim();
-            if(/(?:点数|次助推|助推)/.test(dt) && dt.length < 60) leafCount++;
+            if(/(?:点数|次助推|助推|个投票)/.test(dt) && dt.length < 60) leafCount++;
         }
         if(leafCount > 3) continue;
 
@@ -361,12 +388,12 @@ const string extractScript = @"
         var bestPointsText = '';
         for(var pe = 0; pe < pointsEls.length; pe++){
             var pt = (pointsEls[pe].textContent||'').trim();
-            if(/(?:点数|次助推|助推)/.test(pt) && pt.length < 60 && (!bestPointsText || pt.length < bestPointsText.length)){
+            if(/(?:点数|次助推|助推|个投票)/.test(pt) && pt.length < 60 && (!bestPointsText || pt.length < bestPointsText.length)){
                 bestPointsText = pt;
             }
         }
         if(!bestPointsText) bestPointsText = childText;
-        var pointsMatch = bestPointsText.match(/([\d,]+)\s*(?:点数|次助推|助推)/);
+        var pointsMatch = bestPointsText.match(/([\d,]+)\s*(?:点数|次助推|助推|个投票)/);
         if(!pointsMatch) continue;
 
         var rankMatch = childText.match(/^\s*(\d+)\s*[.、]?/m);
@@ -424,7 +451,7 @@ const string extractScript = @"
         if(!name || name.match(/^[\d\s,.点数投票]+$/)){
             name = childText
                 .replace(/^\s*\d+\s*[.、]?/m, '')
-                .replace(/[\d,]+\s*(?:点数|次助推|助推)/g, '')
+                .replace(/[\d,]+\s*(?:点数|次助推|助推|个投票)/g, '')
                 .replace(/投票/g, '')
                 .replace(/double_arrow/g, '')
                 .replace(/local_fire_department/g, '')
@@ -439,7 +466,7 @@ const string extractScript = @"
             name = name.split(/\n/)[0].trim();
         }
         // Final name clean: strip any leftover points / UI text
-        name = name.replace(/[\d,]+\s*(?:点数|次助推|助推)/g, '').replace(/投票/g, '').replace(/\s+/g, ' ').trim();
+        name = name.replace(/[\d,]+\s*(?:点数|次助推|助推|个投票)/g, '').replace(/投票/g, '').replace(/\s+/g, ' ').trim();
         if(!name || name.length < 2) continue;
         if(name.match(/^[\d\s,.\-:：·•点数投票double_arrow]+$/)) continue;
         if(name.length > 100) name = name.substring(0, 100);
@@ -457,7 +484,7 @@ const string extractScript = @"
         var leaves = [];
         for(var i = 0; i < allEls.length; i++){
             var lt = (allEls[i].textContent||'').trim();
-            if(/(?:点数|次助推|助推)/.test(lt) && lt.length >= 8 && lt.length < 60){
+            if(/(?:点数|次助推|助推|个投票)/.test(lt) && lt.length >= 8 && lt.length < 60){
                 leaves.push({el: allEls[i], depth: elDepth(allEls[i])});
             }
         }
@@ -467,7 +494,7 @@ const string extractScript = @"
         for(var li = 0; li < leaves.length; li++){
             var leaf = leaves[li].el;
             var leafText = leaf.textContent.trim();
-            var pm = leafText.match(/([\d,]+)\s*(?:点数|次助推|助推)/);
+            var pm = leafText.match(/([\d,]+)\s*(?:点数|次助推|助推|个投票)/);
             if(!pm) continue;
             var points = pm[1].replace(/,/g, '');
             // Dedup by points already captured
@@ -485,7 +512,7 @@ const string extractScript = @"
                            && !cImgs[ak].alt.match(/^[\d\s,.]+$/)){ name = cImgs[ak].alt.trim(); break; }
                     }
                     if(!name){
-                        var cleaned = ct.replace(/[\d,]+\s*(?:点数|次助推|助推)/g,'').replace(/^\s*\d{1,2}\s*/,'')
+                        var cleaned = ct.replace(/[\d,]+\s*(?:点数|次助推|助推|个投票)/g,'').replace(/^\s*\d{1,2}\s*/,'')
                                         .replace(/投票/g,'').replace(/\b(?:Steam|Game Pass|Xbox|PlayStation|PS[45]|Switch|Epic|GOG)\s*[·•]\s*/g,'')
                                         .replace(/\s+/g,' ').trim().split('  ')[0].split(' · ')[0].trim();
                         if(cleaned.length >= 2 && cleaned.length < 120 && cleaned.match(/[a-zA-Z\u4e00-\u9fff]/)
@@ -497,7 +524,7 @@ const string extractScript = @"
             }
             var cardText = (cardEl.textContent||'').trim();
             // Strip platform suffixes and UI text from name
-            name = name.replace(/[\d,]+\s*(?:点数|次助推|助推)/g,'').replace(/投票/g,'')
+            name = name.replace(/[\d,]+\s*(?:点数|次助推|助推|个投票)/g,'').replace(/投票/g,'')
                        .replace(/\b(Steam|Game Pass|Xbox|PlayStation|PS[45]|Switch|Epic|GOG)\s*[·•]?\s*$/i, '')
                        .replace(/\s+/g,' ').trim();
             if(!name || name.length < 2 || name.match(/^[\d\s,.]+$/)) continue;
@@ -578,7 +605,7 @@ var minGames = int.TryParse(Environment.GetEnvironmentVariable("WAND_MIN_GAMES")
 if (games.Count < minGames || games.Select(g => g.Name).Distinct(StringComparer.OrdinalIgnoreCase).Count() != games.Count ||
     games.Any(g => g.Points < 0 || g.Name.Contains("邀请好友") || g.Name.Contains("获得奖励")))
 {
-    Console.WriteLine("ERROR: No valid game rows extracted.");
+    Console.WriteLine($"ERROR: Snapshot rejected: {games.Count} rows; require at least {minGames} unique valid games.");
     return 5;
 }
 
