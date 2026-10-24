@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-24T09:40:07.573338+08:00",
-  "latestTime": "2026-10-24 09:30:07",
+  "generatedAt": "2026-10-24T10:25:05.426754+08:00",
+  "latestTime": "2026-10-24 10:15:05",
   "snapshots": [
     {
       "time": "2026-10-23 18:44:32",
@@ -1399,6 +1399,161 @@
     },
     {
       "time": "2026-10-24 09:30:07",
+      "rows": [
+        {
+          "rank": 1,
+          "name": "Find The Needle",
+          "points": 80378,
+          "platform": "Steam"
+        },
+        {
+          "rank": 2,
+          "name": "Onimusha: Warlords / 鬼武者",
+          "points": 41441,
+          "platform": "Steam"
+        },
+        {
+          "rank": 3,
+          "name": "Guildrun",
+          "points": 29736,
+          "platform": "Steam"
+        },
+        {
+          "rank": 4,
+          "name": "Obenseuer",
+          "points": 23601,
+          "platform": "Steam"
+        },
+        {
+          "rank": 5,
+          "name": "ZEPHON",
+          "points": 22647,
+          "platform": "Steam"
+        },
+        {
+          "rank": 6,
+          "name": "FATE: Reawakened",
+          "points": 20641,
+          "platform": "Steam"
+        },
+        {
+          "rank": 7,
+          "name": "No Such Place",
+          "points": 19913,
+          "platform": "Steam"
+        },
+        {
+          "rank": 8,
+          "name": "Devil Spire Falls",
+          "points": 19478,
+          "platform": "Steam"
+        },
+        {
+          "rank": 9,
+          "name": "Atelier Ryza 2: Lost Legends & the Secret Fairy DX",
+          "points": 19016,
+          "platform": "Steam"
+        },
+        {
+          "rank": 10,
+          "name": "Fear & Hunger 2: Termina",
+          "points": 18163,
+          "platform": "Steam"
+        },
+        {
+          "rank": 11,
+          "name": "Don't Sleep With The Fishes",
+          "points": 17499,
+          "platform": "Steam"
+        },
+        {
+          "rank": 12,
+          "name": "EA SPORTS Madden NFL 27",
+          "points": 17031,
+          "platform": "Steam"
+        },
+        {
+          "rank": 13,
+          "name": "侠影录",
+          "points": 16753,
+          "platform": "Steam"
+        },
+        {
+          "rank": 14,
+          "name": "Farm Factory Simulator",
+          "points": 16733,
+          "platform": "Steam"
+        },
+        {
+          "rank": 15,
+          "name": "Discounty",
+          "points": 16696,
+          "platform": "Steam"
+        },
+        {
+          "rank": 16,
+          "name": "Sandustry (Game Preview)",
+          "points": 16663,
+          "platform": "Game Pass"
+        },
+        {
+          "rank": 17,
+          "name": "Beholder: Conductor",
+          "points": 16329,
+          "platform": "Steam"
+        },
+        {
+          "rank": 18,
+          "name": "LEGO Batman3: Beyond Gotham",
+          "points": 16047,
+          "platform": "Steam"
+        },
+        {
+          "rank": 19,
+          "name": "Hellforged Playtest",
+          "points": 15990,
+          "platform": "Steam"
+        },
+        {
+          "rank": 20,
+          "name": "Youtubers Life 3 - Stream Together!",
+          "points": 15850,
+          "platform": "Steam"
+        },
+        {
+          "rank": 21,
+          "name": "Invokyr",
+          "points": 15645,
+          "platform": "Steam"
+        },
+        {
+          "rank": 22,
+          "name": "Football Life Simulator",
+          "points": 15515,
+          "platform": "Steam"
+        },
+        {
+          "rank": 23,
+          "name": "Vacation Cafe Simulator",
+          "points": 15455,
+          "platform": "Steam"
+        },
+        {
+          "rank": 24,
+          "name": "Project Werewulf",
+          "points": 15394,
+          "platform": "Steam"
+        },
+        {
+          "rank": 25,
+          "name": "Chained Beasts",
+          "points": 14970,
+          "platform": "Steam"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-24 10:15:05",
       "rows": [
         {
           "rank": 1,
