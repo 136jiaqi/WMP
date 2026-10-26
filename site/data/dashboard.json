@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-26T22:25:05.561703+08:00",
-  "latestTime": "2026-10-26 22:15:05",
+  "generatedAt": "2026-10-27T00:25:05.551951+08:00",
+  "latestTime": "2026-10-27 00:15:05",
   "snapshots": [
     {
       "time": "2026-10-23 18:44:32",
@@ -6514,6 +6514,161 @@
     },
     {
       "time": "2026-10-26 22:15:05",
+      "rows": [
+        {
+          "rank": 1,
+          "name": "Find The Needle",
+          "points": 96436,
+          "platform": "Steam"
+        },
+        {
+          "rank": 2,
+          "name": "Moon Sweepers",
+          "points": 92992,
+          "platform": "Steam"
+        },
+        {
+          "rank": 3,
+          "name": "Guildrun",
+          "points": 32787,
+          "platform": "Steam"
+        },
+        {
+          "rank": 4,
+          "name": "Obenseuer",
+          "points": 26256,
+          "platform": "Steam"
+        },
+        {
+          "rank": 5,
+          "name": "FATE: Reawakened",
+          "points": 24457,
+          "platform": "Steam"
+        },
+        {
+          "rank": 6,
+          "name": "No Such Place",
+          "points": 22839,
+          "platform": "Steam"
+        },
+        {
+          "rank": 7,
+          "name": "LEGO Batman3: Beyond Gotham",
+          "points": 22662,
+          "platform": "Steam"
+        },
+        {
+          "rank": 8,
+          "name": "Atelier Ryza 2: Lost Legends & the Secret Fairy DX",
+          "points": 21980,
+          "platform": "Steam"
+        },
+        {
+          "rank": 9,
+          "name": "Chained Beasts",
+          "points": 21298,
+          "platform": "Steam"
+        },
+        {
+          "rank": 10,
+          "name": "Devil Spire Falls",
+          "points": 19714,
+          "platform": "Steam"
+        },
+        {
+          "rank": 11,
+          "name": "EA SPORTS Madden NFL 27",
+          "points": 19330,
+          "platform": "Steam"
+        },
+        {
+          "rank": 12,
+          "name": "Sandustry (Game Preview)",
+          "points": 18725,
+          "platform": "Game Pass"
+        },
+        {
+          "rank": 13,
+          "name": "Discounty",
+          "points": 18409,
+          "platform": "Steam"
+        },
+        {
+          "rank": 14,
+          "name": "Invokyr",
+          "points": 18214,
+          "platform": "Steam"
+        },
+        {
+          "rank": 15,
+          "name": "Don't Sleep With The Fishes",
+          "points": 17969,
+          "platform": "Steam"
+        },
+        {
+          "rank": 16,
+          "name": "Farm Factory Simulator",
+          "points": 17262,
+          "platform": "Steam"
+        },
+        {
+          "rank": 17,
+          "name": "Beholder: Conductor",
+          "points": 17139,
+          "platform": "Steam"
+        },
+        {
+          "rank": 18,
+          "name": "侠影录",
+          "points": 16872,
+          "platform": "Steam"
+        },
+        {
+          "rank": 19,
+          "name": "Youtubers Life 3 - Stream Together!",
+          "points": 16851,
+          "platform": "Steam"
+        },
+        {
+          "rank": 20,
+          "name": "Vacation Cafe Simulator",
+          "points": 16617,
+          "platform": "Steam"
+        },
+        {
+          "rank": 21,
+          "name": "Hood Warfare 2",
+          "points": 16317,
+          "platform": "Steam"
+        },
+        {
+          "rank": 22,
+          "name": "Hellforged Playtest",
+          "points": 16245,
+          "platform": "Steam"
+        },
+        {
+          "rank": 23,
+          "name": "Project Werewulf",
+          "points": 16239,
+          "platform": "Steam"
+        },
+        {
+          "rank": 24,
+          "name": "Bruisers 2D Boxing",
+          "points": 16022,
+          "platform": "Steam"
+        },
+        {
+          "rank": 25,
+          "name": "Football Life Simulator",
+          "points": 15899,
+          "platform": "Steam"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-27 00:15:05",
       "rows": [
         {
           "rank": 1,
