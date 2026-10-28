@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T16:25:54.131789+08:00",
-  "latestTime": "2026-10-28 16:15:44",
+  "generatedAt": "2026-10-28T18:17:14.556320+08:00",
+  "latestTime": "2026-10-28 18:15:08",
   "snapshots": [
     {
       "time": "2026-10-23 18:44:32",
@@ -10231,184 +10231,344 @@
           "platform": "Steam"
         }
       ]
+    },
+    {
+      "time": "2026-10-28 18:15:08",
+      "rows": [
+        {
+          "rank": 1,
+          "name": "Find The Needle",
+          "points": 102788,
+          "platform": "Steam"
+        },
+        {
+          "rank": 2,
+          "name": "Guildrun",
+          "points": 33978,
+          "platform": "Steam"
+        },
+        {
+          "rank": 3,
+          "name": "Obenseuer",
+          "points": 29161,
+          "platform": "Steam"
+        },
+        {
+          "rank": 4,
+          "name": "FATE: Reawakened",
+          "points": 28122,
+          "platform": "Steam"
+        },
+        {
+          "rank": 5,
+          "name": "LEGO Batman3: Beyond Gotham",
+          "points": 27614,
+          "platform": "Steam"
+        },
+        {
+          "rank": 6,
+          "name": "Chained Beasts",
+          "points": 25378,
+          "platform": "Steam"
+        },
+        {
+          "rank": 7,
+          "name": "Phantom Blade Zero",
+          "points": 24770,
+          "platform": "Steam"
+        },
+        {
+          "rank": 8,
+          "name": "Atelier Ryza 2: Lost Legends & the Secret Fairy DX",
+          "points": 22760,
+          "platform": "Steam"
+        },
+        {
+          "rank": 9,
+          "name": "Invokyr",
+          "points": 21033,
+          "platform": "Steam"
+        },
+        {
+          "rank": 10,
+          "name": "EA SPORTS Madden NFL 27",
+          "points": 20828,
+          "platform": "Steam"
+        },
+        {
+          "rank": 11,
+          "name": "Sandustry (Game Preview)",
+          "points": 20159,
+          "platform": "Game Pass"
+        },
+        {
+          "rank": 12,
+          "name": "Discounty",
+          "points": 19225,
+          "platform": "Steam"
+        },
+        {
+          "rank": 13,
+          "name": "Farm Factory Simulator",
+          "points": 18378,
+          "platform": "Steam"
+        },
+        {
+          "rank": 14,
+          "name": "Don't Sleep With The Fishes",
+          "points": 18320,
+          "platform": "Steam"
+        },
+        {
+          "rank": 15,
+          "name": "Youtubers Life 3 - Stream Together!",
+          "points": 17446,
+          "platform": "Steam"
+        },
+        {
+          "rank": 16,
+          "name": "Project Werewulf",
+          "points": 17301,
+          "platform": "Steam"
+        },
+        {
+          "rank": 17,
+          "name": "Bruisers 2D Boxing",
+          "points": 17243,
+          "platform": "Steam"
+        },
+        {
+          "rank": 18,
+          "name": "Vacation Cafe Simulator",
+          "points": 17202,
+          "platform": "Steam"
+        },
+        {
+          "rank": 19,
+          "name": "ACE COMBAT ZERO: THE BELKAN WAR",
+          "points": 17195,
+          "platform": "Steam"
+        },
+        {
+          "rank": 20,
+          "name": "侠影录",
+          "points": 16919,
+          "platform": "Steam"
+        },
+        {
+          "rank": 21,
+          "name": "Hood Warfare 2",
+          "points": 16819,
+          "platform": "Steam"
+        },
+        {
+          "rank": 22,
+          "name": "Hellforged Playtest",
+          "points": 16366,
+          "platform": "Steam"
+        },
+        {
+          "rank": 23,
+          "name": "Football Life Simulator",
+          "points": 16362,
+          "platform": "Steam"
+        },
+        {
+          "rank": 24,
+          "name": "One Million Coins",
+          "points": 15919,
+          "platform": "Steam"
+        },
+        {
+          "rank": 25,
+          "name": "Groundwork Simulator",
+          "points": 15685,
+          "platform": "Steam"
+        }
+      ]
     }
   ],
   "statuses": {
     "Obenseuer": {
       "status": "QUEUED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:20.234679+08:00"
+      "cachedAt": "2026-10-28T18:15:20.682654+08:00"
     },
     "Moon Sweepers": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:22.412971+08:00"
+      "cachedAt": "2026-10-28T18:15:22.578524+08:00"
     },
     "One Million Coins": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:25.279460+08:00"
+      "cachedAt": "2026-10-28T18:15:25.692112+08:00"
     },
     "Hood Warfare 2": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:27.384452+08:00"
+      "cachedAt": "2026-10-28T18:15:26.734663+08:00"
     },
     "Fear & Hunger 2: Termina": {
       "status": "QUEUED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:32.750702+08:00"
+      "cachedAt": "2026-10-28T18:15:31.902679+08:00"
     },
     "Find The Needle": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:36.987698+08:00"
+      "cachedAt": "2026-10-28T18:15:36.244086+08:00"
     },
     "FINAL FANTASY RESONANCE": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:39.086900+08:00"
+      "cachedAt": "2026-10-28T18:15:38.319719+08:00"
     },
     "Vacation Cafe Simulator": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:40.935785+08:00"
+      "cachedAt": "2026-10-28T18:15:39.803099+08:00"
     },
     "Sandustry (Game Preview)": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:40.935785+08:00"
+      "cachedAt": "2026-10-28T18:15:39.803099+08:00"
     },
     "Rancher: A new life": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:40.936785+08:00"
+      "cachedAt": "2026-10-28T18:15:39.803099+08:00"
     },
     "Hellforged Playtest": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:40.936785+08:00"
+      "cachedAt": "2026-10-28T18:15:39.803099+08:00"
     },
     "The Relic: First Guardian": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:41.489763+08:00"
+      "cachedAt": "2026-10-28T18:15:40.312735+08:00"
     },
     "侠影录": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:41.489763+08:00"
+      "cachedAt": "2026-10-28T18:15:40.312735+08:00"
     },
     "Guildrun": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:41.489763+08:00"
+      "cachedAt": "2026-10-28T18:15:40.312735+08:00"
     },
     "Invokyr": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:41.986297+08:00"
+      "cachedAt": "2026-10-28T18:15:40.819384+08:00"
     },
     "Don't Sleep With The Fishes": {
       "status": "QUEUED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:41.986297+08:00"
+      "cachedAt": "2026-10-28T18:15:40.819384+08:00"
     },
     "No Such Place": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:15:41.986297+08:00"
+      "cachedAt": "2026-10-28T18:15:40.819384+08:00"
     },
     "Phantom Blade Zero": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:16:14.276154+08:00"
+      "cachedAt": "2026-10-28T18:16:13.170705+08:00"
     },
     "Project Werewulf": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:16:21.701221+08:00"
+      "cachedAt": "2026-10-28T18:16:20.511010+08:00"
     },
     "Beholder: Conductor": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:16:22.194559+08:00"
+      "cachedAt": "2026-10-28T18:16:21.304887+08:00"
     },
     "Atelier Ryza 2: Lost Legends & the Secret Fairy DX": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:16:34.473609+08:00"
+      "cachedAt": "2026-10-28T18:16:33.364310+08:00"
     },
     "Devil Spire Falls": {
       "status": "QUEUED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:16:35.851425+08:00"
+      "cachedAt": "2026-10-28T18:16:34.319716+08:00"
     },
     "Chained Beasts": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:16:36.638349+08:00"
+      "cachedAt": "2026-10-28T18:16:34.722383+08:00"
     },
     "Discounty": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:16:44.398799+08:00"
+      "cachedAt": "2026-10-28T18:16:42.770229+08:00"
     },
     "Football Life Simulator": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:16:45.193467+08:00"
+      "cachedAt": "2026-10-28T18:16:43.253270+08:00"
     },
     "FATE: Reawakened": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:16:45.750912+08:00"
+      "cachedAt": "2026-10-28T18:16:43.818181+08:00"
     },
     "ZEPHON": {
       "status": "PUBLISHED",
       "platform": "Steam",
-      "cachedAt": "2026-10-28T14:16:47.396042+08:00"
+      "cachedAt": "2026-10-28T18:16:45.441326+08:00"
     },
     "Cyberpunk 2077": {
       "status": "PUBLISHED",
       "platform": "Steam,GOG,Epic",
-      "cachedAt": "2026-10-28T14:17:02.094470+08:00"
+      "cachedAt": "2026-10-28T18:17:00.240217+08:00"
     },
     "ACE COMBAT ZERO: THE BELKAN WAR": {
       "status": "NOT_FOUND",
       "platform": "",
-      "cachedAt": "2026-10-28T14:17:17.061281+08:00"
+      "cachedAt": "2026-10-28T18:17:14.556320+08:00"
     },
     "Bruisers 2D Boxing": {
       "status": "NOT_FOUND",
       "platform": "",
-      "cachedAt": "2026-10-28T14:17:17.061281+08:00"
+      "cachedAt": "2026-10-28T18:17:14.556320+08:00"
     },
     "EA SPORTS Madden NFL 27": {
       "status": "NOT_FOUND",
       "platform": "",
-      "cachedAt": "2026-10-28T14:17:17.061281+08:00"
+      "cachedAt": "2026-10-28T18:17:14.556320+08:00"
     },
     "Farm Factory Simulator": {
       "status": "NOT_FOUND",
       "platform": "",
-      "cachedAt": "2026-10-28T14:17:17.061281+08:00"
+      "cachedAt": "2026-10-28T18:17:14.556320+08:00"
+    },
+    "Groundwork Simulator": {
+      "status": "NOT_FOUND",
+      "platform": "",
+      "cachedAt": "2026-10-28T18:17:14.556320+08:00"
     },
     "LEGO Batman3: Beyond Gotham": {
       "status": "NOT_FOUND",
       "platform": "",
-      "cachedAt": "2026-10-28T14:17:17.061281+08:00"
+      "cachedAt": "2026-10-28T18:17:14.556320+08:00"
     },
     "Onimusha: Warlords / 鬼武者": {
       "status": "NOT_FOUND",
       "platform": "",
-      "cachedAt": "2026-10-28T14:17:17.061281+08:00"
+      "cachedAt": "2026-10-28T18:17:14.556320+08:00"
     },
     "Youtubers Life 3 - Stream Together!": {
       "status": "NOT_FOUND",
       "platform": "",
-      "cachedAt": "2026-10-28T14:17:17.061281+08:00"
+      "cachedAt": "2026-10-28T18:17:14.556320+08:00"
     }
   },
-  "warning": "XMod 刷新失败，显示最后已知状态"
+  "warning": null
 }
