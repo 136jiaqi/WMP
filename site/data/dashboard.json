@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T18:25:07.213704+08:00",
-  "latestTime": "2026-10-29 18:15:07",
+  "generatedAt": "2026-10-29T20:25:06.325477+08:00",
+  "latestTime": "2026-10-29 20:15:06",
   "snapshots": [
     {
       "time": "2026-10-23 18:44:32",
@@ -12094,6 +12094,161 @@
     },
     {
       "time": "2026-10-29 18:15:07",
+      "rows": [
+        {
+          "rank": 1,
+          "name": "Phantom Blade Zero",
+          "points": 119504,
+          "platform": "Steam"
+        },
+        {
+          "rank": 2,
+          "name": "Find The Needle",
+          "points": 106251,
+          "platform": "Steam"
+        },
+        {
+          "rank": 3,
+          "name": "Guildrun",
+          "points": 34706,
+          "platform": "Steam"
+        },
+        {
+          "rank": 4,
+          "name": "Obenseuer",
+          "points": 29762,
+          "platform": "Steam"
+        },
+        {
+          "rank": 5,
+          "name": "LEGO Batman3: Beyond Gotham",
+          "points": 29096,
+          "platform": "Steam"
+        },
+        {
+          "rank": 6,
+          "name": "Chained Beasts",
+          "points": 26264,
+          "platform": "Steam"
+        },
+        {
+          "rank": 7,
+          "name": "Atelier Ryza 2: Lost Legends & the Secret Fairy DX",
+          "points": 23213,
+          "platform": "Steam"
+        },
+        {
+          "rank": 8,
+          "name": "Invokyr",
+          "points": 22836,
+          "platform": "Steam"
+        },
+        {
+          "rank": 9,
+          "name": "EA SPORTS Madden NFL 27",
+          "points": 21678,
+          "platform": "Steam"
+        },
+        {
+          "rank": 10,
+          "name": "Sandustry (Game Preview)",
+          "points": 20370,
+          "platform": "Game Pass"
+        },
+        {
+          "rank": 11,
+          "name": "ACE COMBAT ZERO: THE BELKAN WAR",
+          "points": 20018,
+          "platform": "Steam"
+        },
+        {
+          "rank": 12,
+          "name": "Discounty",
+          "points": 19547,
+          "platform": "Steam"
+        },
+        {
+          "rank": 13,
+          "name": "Farm Factory Simulator",
+          "points": 18611,
+          "platform": "Steam"
+        },
+        {
+          "rank": 14,
+          "name": "Youtubers Life 3 - Stream Together!",
+          "points": 18224,
+          "platform": "Steam"
+        },
+        {
+          "rank": 15,
+          "name": "Vacation Cafe Simulator",
+          "points": 17894,
+          "platform": "Steam"
+        },
+        {
+          "rank": 16,
+          "name": "One Million Coins",
+          "points": 17843,
+          "platform": "Steam"
+        },
+        {
+          "rank": 17,
+          "name": "Bruisers 2D Boxing",
+          "points": 17828,
+          "platform": "Steam"
+        },
+        {
+          "rank": 18,
+          "name": "Groundwork Simulator",
+          "points": 17113,
+          "platform": "Steam"
+        },
+        {
+          "rank": 19,
+          "name": "侠影录",
+          "points": 16924,
+          "platform": "Steam"
+        },
+        {
+          "rank": 20,
+          "name": "EA SPORTS FC 27",
+          "points": 16608,
+          "platform": "Steam"
+        },
+        {
+          "rank": 21,
+          "name": "Football Life Simulator",
+          "points": 16498,
+          "platform": "Steam"
+        },
+        {
+          "rank": 22,
+          "name": "Hellforged Playtest",
+          "points": 16375,
+          "platform": "Steam"
+        },
+        {
+          "rank": 23,
+          "name": "Battleplan",
+          "points": 15695,
+          "platform": "Steam"
+        },
+        {
+          "rank": 24,
+          "name": "The Relic: First Guardian",
+          "points": 15501,
+          "platform": "Steam"
+        },
+        {
+          "rank": 25,
+          "name": "My Garage",
+          "points": 15428,
+          "platform": "Steam"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-29 20:15:06",
       "rows": [
         {
           "rank": 1,
