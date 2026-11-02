@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T20:15:04.936924+08:00",
-  "latestTime": "2026-11-02 20:15:04",
+  "generatedAt": "2026-11-02T22:15:06.323177+08:00",
+  "latestTime": "2026-11-02 22:15:06",
   "snapshots": [
     {
       "time": "2026-10-23 18:44:32",
@@ -13644,6 +13644,161 @@
     },
     {
       "time": "2026-11-02 20:15:04",
+      "rows": [
+        {
+          "rank": 1,
+          "name": "Find The Needle",
+          "points": 124946,
+          "platform": "Steam"
+        },
+        {
+          "rank": 2,
+          "name": "Guildrun",
+          "points": 37666,
+          "platform": "Steam"
+        },
+        {
+          "rank": 3,
+          "name": "LEGO Batman3: Beyond Gotham",
+          "points": 36169,
+          "platform": "Steam"
+        },
+        {
+          "rank": 4,
+          "name": "ACE COMBAT ZERO: THE BELKAN WAR",
+          "points": 35676,
+          "platform": "Steam"
+        },
+        {
+          "rank": 5,
+          "name": "Groundwork Simulator",
+          "points": 27811,
+          "platform": "Steam"
+        },
+        {
+          "rank": 6,
+          "name": "Invokyr",
+          "points": 27643,
+          "platform": "Steam"
+        },
+        {
+          "rank": 7,
+          "name": "EA SPORTS Madden NFL 27",
+          "points": 26024,
+          "platform": "Steam"
+        },
+        {
+          "rank": 8,
+          "name": "One Million Coins",
+          "points": 24968,
+          "platform": "Steam"
+        },
+        {
+          "rank": 9,
+          "name": "Bruisers 2D Boxing",
+          "points": 24263,
+          "platform": "Steam"
+        },
+        {
+          "rank": 10,
+          "name": "EA SPORTS FC 27",
+          "points": 22590,
+          "platform": "Steam"
+        },
+        {
+          "rank": 11,
+          "name": "METAL GEAR SOLID Δ: SNAKE EATER",
+          "points": 22280,
+          "platform": "Game Pass"
+        },
+        {
+          "rank": 12,
+          "name": "Sandustry (Game Preview)",
+          "points": 21877,
+          "platform": "Game Pass"
+        },
+        {
+          "rank": 13,
+          "name": "Vacation Cafe Simulator",
+          "points": 19868,
+          "platform": "Steam"
+        },
+        {
+          "rank": 14,
+          "name": "Youtubers Life 3 - Stream Together!",
+          "points": 19680,
+          "platform": "Steam"
+        },
+        {
+          "rank": 15,
+          "name": "Battleplan",
+          "points": 19342,
+          "platform": "Steam"
+        },
+        {
+          "rank": 16,
+          "name": "Can 'Em All",
+          "points": 19053,
+          "platform": "Steam"
+        },
+        {
+          "rank": 17,
+          "name": "侠影录",
+          "points": 17425,
+          "platform": "Steam"
+        },
+        {
+          "rank": 18,
+          "name": "Critter Cove",
+          "points": 17338,
+          "platform": "Steam"
+        },
+        {
+          "rank": 19,
+          "name": "Hellforged Playtest",
+          "points": 16975,
+          "platform": "Steam"
+        },
+        {
+          "rank": 20,
+          "name": "My Garage",
+          "points": 16946,
+          "platform": "Steam"
+        },
+        {
+          "rank": 21,
+          "name": "The Relic: First Guardian",
+          "points": 16068,
+          "platform": "Steam"
+        },
+        {
+          "rank": 22,
+          "name": "Ved: Recure",
+          "points": 15880,
+          "platform": "Steam"
+        },
+        {
+          "rank": 23,
+          "name": "Mall Together",
+          "points": 15565,
+          "platform": "Steam"
+        },
+        {
+          "rank": 24,
+          "name": "Sort Them Ducks",
+          "points": 15487,
+          "platform": "Steam"
+        },
+        {
+          "rank": 25,
+          "name": "NIGHT-RUNNERS PROLOGUE",
+          "points": 15429,
+          "platform": "Steam"
+        }
+      ]
+    },
+    {
+      "time": "2026-11-02 22:15:06",
       "rows": [
         {
           "rank": 1,
