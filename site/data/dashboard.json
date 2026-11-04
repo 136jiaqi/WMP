@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-04T06:15:06.019855+08:00",
-  "latestTime": "2026-11-04 06:15:05",
+  "generatedAt": "2026-11-04T08:15:09.183491+08:00",
+  "latestTime": "2026-11-04 08:15:08",
   "snapshots": [
     {
       "time": "2026-10-23 18:44:32",
@@ -16583,6 +16583,161 @@
           "rank": 25,
           "name": "NIGHT-RUNNERS PROLOGUE",
           "points": 15429,
+          "platform": "Steam"
+        }
+      ]
+    },
+    {
+      "time": "2026-11-04 08:15:08",
+      "rows": [
+        {
+          "rank": 1,
+          "name": "Find The Needle",
+          "points": 131050,
+          "platform": "Steam"
+        },
+        {
+          "rank": 2,
+          "name": "ACE COMBAT ZERO: THE BELKAN WAR",
+          "points": 40955,
+          "platform": "Steam"
+        },
+        {
+          "rank": 3,
+          "name": "LEGO Batman3: Beyond Gotham",
+          "points": 39382,
+          "platform": "Steam"
+        },
+        {
+          "rank": 4,
+          "name": "Guildrun",
+          "points": 39103,
+          "platform": "Steam"
+        },
+        {
+          "rank": 5,
+          "name": "Can 'Em All",
+          "points": 35632,
+          "platform": "Steam"
+        },
+        {
+          "rank": 6,
+          "name": "Groundwork Simulator",
+          "points": 32310,
+          "platform": "Steam"
+        },
+        {
+          "rank": 7,
+          "name": "Invokyr",
+          "points": 31767,
+          "platform": "Steam"
+        },
+        {
+          "rank": 8,
+          "name": "EA SPORTS Madden NFL 27",
+          "points": 27091,
+          "platform": "Steam"
+        },
+        {
+          "rank": 9,
+          "name": "EA SPORTS FC 27",
+          "points": 26400,
+          "platform": "Steam"
+        },
+        {
+          "rank": 10,
+          "name": "Bruisers 2D Boxing",
+          "points": 25680,
+          "platform": "Steam"
+        },
+        {
+          "rank": 11,
+          "name": "METAL GEAR SOLID Δ: SNAKE EATER",
+          "points": 25594,
+          "platform": "Game Pass"
+        },
+        {
+          "rank": 12,
+          "name": "Sandustry (Game Preview)",
+          "points": 23411,
+          "platform": "Game Pass"
+        },
+        {
+          "rank": 13,
+          "name": "Youtubers Life 3 - Stream Together!",
+          "points": 21012,
+          "platform": "Steam"
+        },
+        {
+          "rank": 14,
+          "name": "Hunting Simulator 3",
+          "points": 20350,
+          "platform": "Steam"
+        },
+        {
+          "rank": 15,
+          "name": "Battleplan",
+          "points": 19650,
+          "platform": "Steam"
+        },
+        {
+          "rank": 16,
+          "name": "Critter Cove",
+          "points": 18328,
+          "platform": "Steam"
+        },
+        {
+          "rank": 17,
+          "name": "Tape to Tape",
+          "points": 17617,
+          "platform": "Steam"
+        },
+        {
+          "rank": 18,
+          "name": "侠影录",
+          "points": 17458,
+          "platform": "Steam"
+        },
+        {
+          "rank": 19,
+          "name": "Hellforged Playtest",
+          "points": 17240,
+          "platform": "Steam"
+        },
+        {
+          "rank": 20,
+          "name": "NIGHT-RUNNERS PROLOGUE",
+          "points": 17232,
+          "platform": "Steam"
+        },
+        {
+          "rank": 21,
+          "name": "Sort Them Ducks",
+          "points": 16571,
+          "platform": "Steam"
+        },
+        {
+          "rank": 22,
+          "name": "Ved: Recure",
+          "points": 16402,
+          "platform": "Steam"
+        },
+        {
+          "rank": 23,
+          "name": "Backyard Baseball",
+          "points": 16219,
+          "platform": "Steam"
+        },
+        {
+          "rank": 24,
+          "name": "Mall Together",
+          "points": 16069,
+          "platform": "Steam"
+        },
+        {
+          "rank": 25,
+          "name": "Dawn Break",
+          "points": 15404,
           "platform": "Steam"
         }
       ]
