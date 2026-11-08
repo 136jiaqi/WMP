@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T06:15:06.697455+08:00",
-  "latestTime": "2026-11-08 06:15:06",
+  "generatedAt": "2026-11-08T08:15:06.682289+08:00",
+  "latestTime": "2026-11-08 08:15:06",
   "snapshots": [
     {
       "time": "2026-10-23 18:44:32",
@@ -24494,6 +24494,161 @@
     },
     {
       "time": "2026-11-08 06:15:06",
+      "rows": [
+        {
+          "rank": 1,
+          "name": "ACE COMBAT ZERO: THE BELKAN WAR",
+          "points": 52616,
+          "platform": "Steam"
+        },
+        {
+          "rank": 2,
+          "name": "Guildrun",
+          "points": 42347,
+          "platform": "Steam"
+        },
+        {
+          "rank": 3,
+          "name": "Potato Please",
+          "points": 32075,
+          "platform": "Steam"
+        },
+        {
+          "rank": 4,
+          "name": "Bruisers 2D Boxing",
+          "points": 29023,
+          "platform": "Steam"
+        },
+        {
+          "rank": 5,
+          "name": "Sandustry (Game Preview)",
+          "points": 24969,
+          "platform": "Game Pass"
+        },
+        {
+          "rank": 6,
+          "name": "Football Manager 27",
+          "points": 24601,
+          "platform": "Steam"
+        },
+        {
+          "rank": 7,
+          "name": "Youtubers Life 3 - Stream Together!",
+          "points": 24091,
+          "platform": "Steam"
+        },
+        {
+          "rank": 8,
+          "name": "NIGHT-RUNNERS PROLOGUE",
+          "points": 19481,
+          "platform": "Steam"
+        },
+        {
+          "rank": 9,
+          "name": "侠影录",
+          "points": 17871,
+          "platform": "Steam"
+        },
+        {
+          "rank": 10,
+          "name": "Prince of Persia The Lost Crown",
+          "points": 17588,
+          "platform": "Steam"
+        },
+        {
+          "rank": 11,
+          "name": "Hellforged Playtest",
+          "points": 17575,
+          "platform": "Steam"
+        },
+        {
+          "rank": 12,
+          "name": "Shipping Store Simulator 2037",
+          "points": 17487,
+          "platform": "Steam"
+        },
+        {
+          "rank": 13,
+          "name": "Ved: Recure",
+          "points": 16858,
+          "platform": "Steam"
+        },
+        {
+          "rank": 14,
+          "name": "Beyond These Stars",
+          "points": 16787,
+          "platform": "Game Pass"
+        },
+        {
+          "rank": 15,
+          "name": "Blind Box Shop Simulator",
+          "points": 16700,
+          "platform": "Steam"
+        },
+        {
+          "rank": 16,
+          "name": "Megastore: Tidy Up Together",
+          "points": 16668,
+          "platform": "Steam"
+        },
+        {
+          "rank": 17,
+          "name": "Backyard Baseball",
+          "points": 16606,
+          "platform": "Steam"
+        },
+        {
+          "rank": 18,
+          "name": "Atelier Ryza 3: Alchemist of the End & the Secret Key DX",
+          "points": 16510,
+          "platform": "Steam"
+        },
+        {
+          "rank": 19,
+          "name": "FUMES",
+          "points": 16449,
+          "platform": "Steam"
+        },
+        {
+          "rank": 20,
+          "name": "Brick by Brick: Tidy Up the Small Town!",
+          "points": 16011,
+          "platform": "Steam"
+        },
+        {
+          "rank": 21,
+          "name": "Orebound",
+          "points": 15328,
+          "platform": "Steam"
+        },
+        {
+          "rank": 22,
+          "name": "Avatar Legends: The Fighting Game",
+          "points": 14895,
+          "platform": "Steam"
+        },
+        {
+          "rank": 23,
+          "name": "States of Power",
+          "points": 14892,
+          "platform": "Steam"
+        },
+        {
+          "rank": 24,
+          "name": "Geoplanetical",
+          "points": 14862,
+          "platform": "Steam"
+        },
+        {
+          "rank": 25,
+          "name": "Little Sim World",
+          "points": 14798,
+          "platform": "Steam"
+        }
+      ]
+    },
+    {
+      "time": "2026-11-08 08:15:06",
       "rows": [
         {
           "rank": 1,
